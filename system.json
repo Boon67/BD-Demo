@@ -1,0 +1,34 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "devices",
+                    "asset_id": "",
+                    "deployment": "DemoEM",
+                    "member": "DemoEM_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "adaptors",
+                    "asset_id": "DemoEM",
+                    "deployment": "DemoEM",
+                    "member": "DemoEM_deployment_edge_group",
+                    "sync": true
+                }
+            ],
+            "description": "",
+            "edges": [
+                "___ALL_EDGES___"
+            ],
+            "name": "DemoEM"
+        }
+    ],
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "BD-Demo",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "b2dabeb20bfa8f8ff1b487a5bb37",
+    "system_secret": ""
+}
