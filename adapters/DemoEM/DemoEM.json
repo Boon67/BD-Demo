@@ -1,0 +1,14 @@
+{
+    "architecture": "edge-linux-armv7",
+    "deploy_command": "echo \"Deployed\"",
+    "description": "",
+    "logs_command": "",
+    "name": "DemoEM",
+    "os": "",
+    "protocol": "",
+    "start_command": "/snap/clearblade-edge/x1/command-DemoEM.wrapper -m -k b2dabeb20bfa8f8ff1b487a5bb37 -s B2DABEB20BB89AD9BABC94B4F25D --platform-url=http://localhost:9000 --messaging-url=localhost:1883 \u003e /var/snap/clearblade-edge/x1/demoem_logs 2\u003e\u00261 \u0026",
+    "status_command": "echo Running",
+    "stop_command": "",
+    "undeploy_command": "",
+    "version": 34
+}
