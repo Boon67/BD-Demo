@@ -1,0 +1,47 @@
+{
+    "app_id": "b2dabeb20bfa8f8ff1b487a5bb37",
+    "collection_id": "c8f3beb20baaeed89d9cb8a59c12",
+    "items": [
+        {
+            "deviceid": "Sensor2",
+            "item_id": "7d35ea67-12ce-4f55-8096-ea0adea9334c",
+            "message": "011E0001"
+        },
+        {
+            "deviceid": "Sensor",
+            "item_id": "b50b9a64-bad4-4b54-8704-ede021d01401",
+            "message": "0"
+        },
+        {
+            "deviceid": "Endpoints/Sensor",
+            "item_id": "d83eccba-b507-494e-a89e-d58b50cfbf12",
+            "message": "83"
+        },
+        {
+            "deviceid": "Flow",
+            "item_id": "fa296153-331d-483d-9204-a99b5f4891fd",
+            "message": "502"
+        }
+    ],
+    "name": "EndpointData",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "deviceid",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "message",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
