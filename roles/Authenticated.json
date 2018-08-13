@@ -1,0 +1,74 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "updateDataFromMQTT",
+                "SystemKey": "b2dabeb20bfa8f8ff1b487a5bb37"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "c8f3beb20baaeed89d9cb8a59c12",
+                "Items": [],
+                "Level": 15,
+                "Name": "EndpointData"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 15
+        },
+        "MsgHistory": {
+            "Level": 1
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "BD-Demo",
+                "SystemKey": "b2dabeb20bfa8f8ff1b487a5bb37"
+            },
+            {
+                "Level": 5,
+                "Name": "Dev-BD-Demo",
+                "SystemKey": "b2dabeb20bfa8f8ff1b487a5bb37"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "#"
+            }
+        ],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
