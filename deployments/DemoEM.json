@@ -1,0 +1,23 @@
+{
+    "assets": [
+        {
+            "asset_class": "devices",
+            "asset_id": "",
+            "deployment": "DemoEM",
+            "member": "DemoEM_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "adaptors",
+            "asset_id": "DemoEM",
+            "deployment": "DemoEM",
+            "member": "DemoEM_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "",
+    "edges": [
+        "___ALL_EDGES___"
+    ],
+    "name": "DemoEM"
+}
